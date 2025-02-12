@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #d4d4d4;
 }
 
@@ -13,4 +13,14 @@ body{
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 1em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #918b8b;
 }
